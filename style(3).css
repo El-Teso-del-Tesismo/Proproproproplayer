@@ -1,0 +1,105 @@
+@import url("https://fonts.googlepis.com/css2?family=poppins:wght@400;500;600;700;800&display=swap");
+
+/* font-family: "bebas neue", cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "poppons", sans-serif;
+    background-color: #1f1f1f;    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(img/natural-scenery-8589165_640.webp);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo{
+    font-size: 24px;
+    color: #ff0000;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a:hover{
+    color: #ff0000;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-txt{
+    text-align: center;
+    display: none;
+}
+.header-txt h1, span, h3{
+    font-size: 100px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: "bebas neue", cursive; 
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+.header-txt span{
+    font-size: 25px;
+}
+.header-txt p{
+    color: aliceblue;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #ff0000;
+    color: #1f1f1f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: serif;
+    margin: 25px 0;
+    border: 0;
+}
+.btn-1:hover{
+    background-color: #ff0000;
+}
+.header-dir{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.dir h3{
+    font-size: 18px;
+}
