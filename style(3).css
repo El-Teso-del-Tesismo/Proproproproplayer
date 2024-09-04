@@ -4,7 +4,7 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 11;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -38,11 +38,11 @@ body{
     z-index: 1000;
 }
 .logo{
-    border: 1px solid #053d06;
+    border: 1px solid #ffffff;
     display: inline-block;
     padding: 12px 45px;
     font-size: 24px;
-    color: #ff0000;
+    color: #000000;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ body{
     float: left;
 }
 .menu .navbar ul li a:hover{
-    color: #ff0000;
+    color: #ffffff;
 }
 #menu{
     display: none;
@@ -72,7 +72,7 @@ body{
     letter-spacing: 5px;
     text-transform: uppercase;
     font-family: "bebas neue", cursive; 
-    color: #ff0000;
+    color: #000000;
     margin-bottom: 15px;
 }
 .header-txt span{
@@ -80,18 +80,18 @@ body{
 }
 .header-txt p{
     margin: 25px 0;
-    border: 1px solid #053d06;
+    border: 1px solid #ffffff;
     display: inline-block;
     padding: 12px 45px;
     font-size: 24px;
-    color: #ff0000;
+    color: #000000;
     font-weight: 800;
     text-transform: uppercase;
 }
 .btn-1{
     display: inline-block;
     padding: 11px 25px;
-    background-color: #ff0000;
+    background-color: #ffffff;
     color: #1f1f1f;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -101,7 +101,7 @@ body{
     border: 0;
 }
 .btn-1:hover{
-    background-color: #ff0000;
+    background-color: #ffffff;
 }
 .header-dir{
     display: flex;
@@ -250,7 +250,7 @@ td{
     color: #ff0000;
 }
 .footer-bg{
-    background-image: url(img/can1.jpg);
+    background-image: url(img/descarga.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
