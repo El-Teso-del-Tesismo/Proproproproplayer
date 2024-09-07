@@ -13,7 +13,8 @@
      
 }
 body{
-   background-image: url("img/mejoracion\ del\ fondo.jpeg");
+    background-color: blue;
+   color: #7459d5;
 }
 .titulo{
     text-align: center;
