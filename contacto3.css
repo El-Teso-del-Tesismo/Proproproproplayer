@@ -96,8 +96,10 @@ p{
     margin: auto;
     width: 800px;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
+    position: center;
    left:20%;
+   text-align: center;
+   display: inline-flex;
 }
 ul, ol {
     list-style: none;
@@ -108,15 +110,15 @@ ul, ol {
 }
 
 .nav li a {
-    background-color: #f0e8e5;
-    color: #0dbaf9;
+    background-color: #000000;
+    color: #fffcfc;
     text-decoration: none;
     padding: 10px 12px;
     display: block;
 }
 
 .nav li a:hover {
-    background-color: #000000;
+    background-color: #ab0606;
 }
 
 .nav li ul {
