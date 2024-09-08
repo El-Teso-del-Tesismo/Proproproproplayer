@@ -1,5 +1,5 @@
 * {
-    padding: 0;
+    padding: 22px;
     margin: 0;
 }
 
@@ -100,6 +100,7 @@ p{
    left:20%;
    text-align: center;
    display: inline-flex;
+   align-content: space-between;
 }
 ul, ol {
     list-style: none;
