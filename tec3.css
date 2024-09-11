@@ -1,21 +1,24 @@
 @import url("https://fonts.googlepis.com/css2?family=poppins:wght@400;500;600;700;800&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
-body{
+
+body {
     font-family: "poppins", sans-serif;
-    background-color: hsl(231, 77%, 32%);
+    background-color: hsl(0, 0%, 0%);
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-.header{
+
+.header {
     background-image: url(img/imagenes-de-paisajes-para-dibujar-bonitos.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -24,7 +27,8 @@ body{
     display: flex;
     align-items: center;
 }
-.menu{
+
+.menu {
     position: absolute;
     top: 0;
     left: 0;
@@ -33,48 +37,58 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     color: #fffdfc;
     font-size: 25px;
     font-weight: 800;
 }
-.menu .navbar ul li{
+
+.menu .navbar ul li {
     position: relative;
     float: left;
 }
-.menu .navbar ul li a{
+
+.menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
     color: #fffdfc;
     display: block;
     font-weight: 600;
 }
-#menu{
+
+#menu {
     display: none;
 }
-.menu-icono{
+
+.menu-icono {
     width: 25px;
 }
-.menu label{
+
+.menu label {
     cursor: pointer;
     display: none;
 }
-.header-txt{
+
+.header-txt {
     text-align: center;
 }
-.header-txt h1{
+
+.header-txt h1 {
     font-size: 85px;
     color: #fffdfc;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.header-txt p{
+
+.header-txt p {
     color: #bebebe;
     font-size: 16px;
     padding: 0 250px;
     margin-bottom: 45px;
 }
-.btn-1{
+
+.btn-1 {
     display: inline-block;
     padding: 12px 45px;
     border: 1px solid #fffdfc;
@@ -83,95 +97,112 @@ body{
     text-transform: uppercase;
     font-weight: 600;
 }
-.btn-1:hover{
-    color: #1b291b;
+
+.btn-1:hover {
+    color: #000000;
     background-color: #fffdfc;
 }
-.general{
+
+.general {
     padding: 50px 0;
     text-align: center;
 }
-.general-content{
+
+.general-content {
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
 }
-.general-1{
-    background-image: url(img/can2.jpeg);
+
+.general-1 {
+    background-image: url(img/camino\ -\ copia\ -\ copia.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     padding: 170px 55px;
 }
-.general-2{
-    background-image: url(img/can2.jpeg);
+
+.general-2 {
+    background-image: url(img/camino\ -\ copia\ -\ copia.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     padding: 170px 55px;
 }
-.general-3{
-    background-image: url(img/can2.jpeg);
+
+.general-3 {
+    background-image: url(img/camino\ -\ copia\ -\ copia.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     padding: 170px 55px;
 }
-.general-4{
-    background-image: url(img/can1.jpg);
+
+.general-4 {
+    background-image: url(img/img\ carro\ 1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     padding: 170px 55px;
 }
-.general-5{
-    background-image: url(img/can2.jpeg);
+
+.general-5 {
+    background-image: url(img/img\ carro\ 1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     padding: 170px 55px;
 }
-.general-6{
-    background-image: url(img/can1.jpg);
+
+.general-6 {
+    background-image: url(img/img\ carro\ 1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
     padding: 170px 55px;
 }
-h2{
+
+h2 {
     font-size: 70px;
     text-transform: uppercase;
-    color: #1b291b;
+    color: #ffffff;
 }
-.txt p{
+
+.txt p {
     color: #ebebeb;
     font-size: 16px;
 }
-.info-1{
+
+.info-1 {
     padding: 250px 0;
-    background-image: url(img/God\ of\ Wat.jpeg);
+    background-image: url(img);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.info-content{
+
+.info-content {
     text-align: center;
 }
-.info-content h2, span{
-    color: #150550;
+
+.info-content h2,
+span {
+    color: #ececec;
 }
-.info-circle{
+
+.info-circle {
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
 }
-.circle-txt{
+
+.circle-txt {
     width: 25px;
     display: flex;
     flex-direction: column;
@@ -179,9 +210,18 @@ h2{
     text-align: center;
     margin-top: 35px;
 }
-.circle-1{
-    height: 100px;
-    width: 100px;
+
+.circle-1 {
+    height: 145px;
+    width: 166px;
     border: 1px solid #fffdfc;
     padding-top: 35px;
+}
+
+p {
+    color: #ffffff;
+}
+
+.general-4 .txt{
+    color: #000000;
 }
