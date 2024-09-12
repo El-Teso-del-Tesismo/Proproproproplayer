@@ -1,227 +1,201 @@
-@import url("https://fonts.googlepis.com/css2?family=poppins:wght@400;500;600;700;800&display=swap");
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 body {
-    font-family: "poppins", sans-serif;
-    background-color: hsl(0, 0%, 0%);
+    text-align: center;
+    font-family: sans-serif;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.header {
-    background-image: url(img/imagenes-de-paisajes-para-dibujar-bonitos.jpg);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-}
-
-.menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+.head {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
 }
 
 .logo {
-    color: #fffdfc;
-    font-size: 25px;
-    font-weight: 800;
+    margin-left: 30px;
 }
 
-.menu .navbar ul li {
-    position: relative;
-    float: left;
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
-.menu .navbar ul li a {
-    font-size: 18px;
-    padding: 20px;
-    color: #fffdfc;
+.navbar a {
     display: block;
-    font-weight: 600;
-}
-
-#menu {
-    display: none;
-}
-
-.menu-icono {
-    width: 25px;
-}
-
-.menu label {
-    cursor: pointer;
-    display: none;
-}
-
-.header-txt {
-    text-align: center;
-}
-
-.header-txt h1 {
-    font-size: 85px;
-    color: #fffdfc;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    font-size: 20px;
 }
 
-.header-txt p {
-    color: #bebebe;
-    font-size: 16px;
-    padding: 0 250px;
-    margin-bottom: 45px;
+.navbar a:hover {
+    background: #e91e63;
 }
 
-.btn-1 {
-    display: inline-block;
-    padding: 12px 45px;
-    border: 1px solid #fffdfc;
-    color: #fffdfc;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.btn-1:hover {
-    color: #000000;
-    background-color: #fffdfc;
-}
-
-.general {
-    padding: 50px 0;
-    text-align: center;
-}
-
-.general-content {
+.header {
     display: flex;
-    justify-content: space-between;
-    margin-top: 55px;
-}
-
-.general-1 {
-    background-image: url(img/camino\ -\ copia\ -\ copia.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-
-.general-2 {
-    background-image: url(img/camino\ -\ copia\ -\ copia.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-
-.general-3 {
-    background-image: url(img/camino\ -\ copia\ -\ copia.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-
-.general-4 {
-    background-image: url(img/img\ carro\ 1.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-
-.general-5 {
-    background-image: url(img/img\ carro\ 1.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-
-.general-6 {
-    background-image: url(img/img\ carro\ 1.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-
-h2 {
-    font-size: 70px;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.txt p {
-    color: #ebebeb;
-    font-size: 16px;
-}
-
-.info-1 {
-    padding: 250px 0;
-    background-image: url(img);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.info-content {
-    text-align: center;
-}
-
-.info-content h2,
-span {
-    color: #ececec;
-}
-
-.info-circle {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 55px;
-}
-
-.circle-txt {
-    width: 25px;
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin-top: 35px;
+    height: 60vh;
+    background: url(img/img\ carro\ 1.png) no-repeat center;
+    background-size: cover;
 }
 
-.circle-1 {
-    height: 145px;
-    width: 166px;
-    border: 1px solid #fffdfc;
-    padding-top: 35px;
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 p {
-    color: #ffffff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
 }
 
-.general-4 .txt{
-    color: #000000;
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #e91e63;
+    color: #fff;
+    text-decoration: none;
+    background: #e91e63;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 205px 0;
+    background: #303030;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 170px;
+    width: 270px;
+    background: #171717;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px #171717;
+    margin: 20px;
+}
+
+.box-container .box i{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #e91e63;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #e91e63;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.price{
+    background: url(img/can3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.about{
+    background: #303030;
+    padding: 50px 0;
+}
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box{
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5p #171717;
+    background: #171717;
+    margin: 20px 20px;
+}
+
+.box-container2 .box img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid #e91e63;
+}
+
+.box-container2 .box h3{
+    font-size: 20px;
+    color: #e91e63;
+    padding-top: 10px;
+}
+
+.box-container2 .box p{
+    font-size: 18px;
+    color: #fff;
+    padding: 0;
+}
+
+.box-container2 .box .stars i{
+    font-size: 15px;
+    color: #e91e63;
+}
+
+.contact{
+    padding: 50px 0;
+    background: #171717;
 }
